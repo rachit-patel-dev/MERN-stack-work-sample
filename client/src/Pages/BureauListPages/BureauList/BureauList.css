@@ -1,0 +1,245 @@
+#components-layout-demo-responsive .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.2);
+}
+button.ant-btn.action-btn img {
+  height: 15px;
+  width: auto;
+}
+button.ant-btn.action-btn {
+  border: 0.5px solid rgb(170 170 170 / 50%);
+  border-radius: 0;
+  width: 32px;
+  height: 41px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+}
+button.ant-btn.action-btn+button.ant-btn.action-btn {
+  margin-left: -1px;
+}
+button.ant-btn.action-btn:first-child {
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+button.ant-btn.action-btn:last-child {
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.action-box {
+  display: flex;
+  align-items: center;
+  padding-left: 1px;
+}
+.list-table {
+  margin-top: 24px;
+}
+.list-table .ant-table {
+  border-radius: 2px;
+  background: #191C1F;
+}
+.list-table .ant-table thead.ant-table-thead .ant-table-cell {
+  background: #191C1F;
+  box-shadow: inset 0px -2px 0px rgb(255 255 255 / 4%);
+  padding: 16px 30px;
+  height: auto;
+  border-bottom: none;
+}
+.list-table .ant-table thead.ant-table-thead .ant-table-cell span.ant-table-column-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  color: #FFFFFF;
+  flex: none;
+  width: auto;
+}
+.list-table .ant-table thead.ant-table-thead .ant-table-cell .ant-table-column-sorters {
+  justify-content: flex-start;
+  gap: 17px;
+}
+.list-table .ant-table thead.ant-table-thead .ant-table-cell::before {
+  display: none;
+}
+.list-table span.ant-table-column-sorter.ant-table-column-sorter-full {
+  color: rgb(255 255 255 / 30%);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.list-table span.ant-table-column-sorter.ant-table-column-sorter-full span.anticon.active {
+  color: #f56b09;
+}
+.list-table .ant-table-wrapper .ant-table-column-sorters:hover .ant-table-column-sorter {
+  color: #aaa;
+}
+.list-table .ant-table tbody.ant-table-tbody .ant-table-cell {
+  background: #191C1F;
+  padding: 8px 30px;
+  height: auto;
+  border: none !important;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.list-table .ant-table tbody.ant-table-tbody .ant-table-cell p {
+  margin: 0;
+}
+.list-table .ant-table tbody.ant-table-tbody tr:hover .ant-table-cell {
+  background: rgb(0 0 0 / 31%);
+  border-radius: 0 !important;
+}
+p.pending {
+  color: #aaa;
+}
+p.active {
+  color: #36A933;
+}
+p.blocked {
+  color: #FF2020;
+}
+button.ant-btn.action-btn:hover {
+  border-color: #f56b09;
+  position: relative;
+  z-index: 1;
+  background: #000;
+  border-color: rgb(170 170 170 / 50%);
+}
+
+/* Delete modal css */
+.ant-modal-confirm-confirm.delete-modal .ant-modal-content {
+  background: #191C1F;
+  border: 1px solid #AAAAAA;
+  border-radius: 16px;
+  padding: 122px 30px 114px;
+  text-align: center;
+}
+.ant-modal-confirm-confirm.delete-modal {
+  padding-bottom: 0;
+  max-width: 95%;
+}
+.ant-modal-confirm-confirm.delete-modal .ant-modal-content .ant-modal-confirm-body {
+  display: block;
+}
+.ant-modal-confirm-confirm.delete-modal .ant-modal-content span.anticon.anticon-exclamation-circle {
+  display: none;
+}
+.ant-modal-confirm-confirm.delete-modal .ant-modal-content .ant-modal-confirm-body span.ant-modal-confirm-title {
+  display: block;
+  margin-bottom: 18px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 48px;
+  text-align: center;
+  color: #AAAAAA;
+}
+.ant-modal-confirm-confirm.delete-modal .ant-modal-content .ant-modal-confirm-body .ant-modal-confirm-content {
+  margin: 0;
+}
+.ant-modal-confirm-confirm.delete-modal .ant-modal-confirm-btns .ant-btn-primary:hover {
+  background: linear-gradient(-269.36deg, #FF4900 -23.62%, #FF9B06 120.63%);
+}
+.ant-modal-confirm-confirm.delete-modal .ant-modal-confirm-btns .ant-btn-primary {
+  margin-left: 0;
+  margin-right: 18px;
+  background: linear-gradient(269.36deg, #FF4900 -23.62%, #FF9B06 120.63%);
+  padding: 7px 21px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  height: auto;
+  border-radius: 0;
+  outline: none;
+  box-shadow: none;
+  transition: none;
+  border: none;
+}
+.ant-modal-confirm-confirm.delete-modal .ant-modal-confirm-btns {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.ant-modal-confirm-confirm.delete-modal .ant-modal-confirm-btns .ant-btn-default {
+  margin-left: 0;
+  margin-right: 0px;
+  background: transparent;
+  padding: 7px 21px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #aaa;
+  height: auto;
+  border-radius: 0;
+  outline: none;
+  box-shadow: none;
+  transition: none;
+  border: none;
+}
+.ant-modal-confirm-confirm.delete-modal .ant-modal-confirm-btns .ant-btn-default:hover {
+  color: #fff;
+}
+.ant-modal-confirm-confirm.delete-modal button.ant-modal-close {
+  color: #aaa;
+}
+.ant-modal-confirm-confirm.delete-modal button.ant-modal-close:hover {
+  color: #fff;
+}
+.ant-modal-confirm-confirm.delete-modal button.ant-modal-close {
+  color: #aaa;
+  inset-inline-end: 20px;
+  outline: none;
+  box-shadow: none;
+}
+@media (max-width: 991px) {
+  .list-table .ant-table thead.ant-table-thead .ant-table-cell {
+    padding: 13px 15px;
+  }
+  .list-table .ant-table tbody.ant-table-tbody .ant-table-cell {
+    padding: 8px 15px;
+  }
+  .ant-modal-confirm-confirm.delete-modal .ant-modal-content {
+    padding: 70px 30px 60px;
+  }
+}
+@media (max-width: 767px) {
+  .list-table {
+    margin-top: 15px;
+  }
+  .list-table .ant-table thead.ant-table-thead .ant-table-cell span.ant-table-column-title {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .list-table .ant-table tbody.ant-table-tbody .ant-table-cell {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  button.ant-btn.action-btn {
+    width: 30px;
+    height: 35px;
+  }
+  button.ant-btn.action-btn img {
+    height: 13px;
+  }
+  .ant-modal-confirm-confirm.delete-modal .ant-modal-content .ant-modal-confirm-body span.ant-modal-confirm-title {
+    font-size: 15px;
+    line-height: 30px;
+  }
+}

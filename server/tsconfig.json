@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "dist/",
+    "sourceMap": true,
+    "esModuleInterop": true,
+  },
+  "include": [
+    "src/**/*.ts"
+, "src/app/bureau/delete.ts", "src/infra/database/index.ts"  ],
+  "exclude": [
+    "typings/*",
+    "node_modules",
+    "node_modules/*"
+  ]
+}

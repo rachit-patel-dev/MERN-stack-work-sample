@@ -1,0 +1,554 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+form.ant-form.common-form .ant-col.ant-form-item-label {
+  padding-bottom: 7px;
+}
+form.ant-form.common-form .ant-col.ant-form-item-label label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #aaaaaa;
+}
+form.ant-form.common-form span.ant-input-affix-wrapper {
+  background: #191c1f;
+  border: 1px solid #aaaaaa;
+  border-radius: 2px;
+  padding: 11px 16px;
+}
+form.ant-form.common-form input.ant-input {
+  background: #191c1f;
+  border: 1px solid #aaaaaa;
+  border-radius: 2px;
+  padding: 11px 16px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+form.ant-form.common-form input.ant-input::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  opacity: 0.4;
+}
+form.ant-form.common-form span.ant-input-suffix img {
+  width: 14px;
+  height: auto;
+}
+form.ant-form.common-form span.ant-input-affix-wrapper input.ant-input {
+  background: #191c1f;
+  border: none;
+  border-radius: 0px;
+  padding: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #ffffff;
+}
+form.ant-form.common-form .ant-form-item.legal-name span.ant-input-suffix img {
+  width: 20px;
+  height: auto;
+  opacity: 0.4;
+}
+form.ant-form.common-form .ant-select-selector {
+  background: #191c1f;
+  border: 1px solid #aaaaaa;
+  border-radius: 2px;
+  /* padding: 12px 16px; */
+  height: 48px;
+}
+form.ant-form.common-form
+  .ant-select-selector
+  span.ant-select-selection-search {
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+}
+form.ant-form.common-form
+  .ant-select-selector
+  span.ant-select-selection-search
+  input {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+form.ant-form.common-form .ant-select-selector span.ant-select-selection-item {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 46px;
+  color: #ffffff;
+  height: auto;
+  min-height: auto;
+  padding: 0 10px;
+  margin: 0;
+  padding-left: 5px;
+}
+form.ant-form.common-form .ant-select-selector::after {
+  line-height: 22px;
+}
+form.ant-form.common-form
+  .ant-select-selector
+  span.ant-select-selection-placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 46px;
+  color: #fff;
+  opacity: 0.4;
+  padding-left: 5px;
+}
+form.ant-form.common-form .ant-select .ant-select-arrow {
+  color: #fff;
+  opacity: 0.4;
+}
+form.ant-form.common-form
+  span.ant-input-affix-wrapper.ant-input-affix-wrapper-status-success
+  span.ant-input-suffix
+  img {
+  opacity: 1;
+}
+form.ant-form.common-form .ant-upload.ant-upload-select button.ant-btn {
+  background: #191c1f;
+  border: 1px solid #aaaaaa;
+  border-radius: 2px;
+  padding: 12px 16px;
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgb(255 255 255 / 40%);
+  align-items: center;
+}
+form.ant-form.common-form
+  .ant-upload.ant-upload-select
+  button.ant-btn
+  span.anticon.anticon-upload {
+  font-size: 18px;
+  color: #aaa;
+}
+form.ant-form.common-form .ant-upload.ant-upload-select {
+  width: 100%;
+}
+form.ant-form.common-form .ant-upload.ant-upload-select button.ant-btn span {
+  margin: 0;
+}
+form.ant-form.common-form
+  .ant-select:not(.ant-select-disabled):not(.ant-select-customize-input):not(
+    .ant-pagination-size-changer
+  ):hover
+  .ant-select-selector {
+  border-color: #aaa;
+  box-shadow: none !important;
+  outline: none !important;
+}
+/* form.ant-form.common-form .ant-select-focused.ant-select:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer):hover .ant-select-selector {
+    border-color: #fff;
+} */
+form.ant-form.common-form
+  .ant-select-focused.ant-select:not(.ant-select-disabled):not(
+    .ant-select-customize-input
+  ):not(.ant-pagination-size-changer)
+  .ant-select-selector {
+  border-color: #aaa;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.bottom-btn-section .btn-link {
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 12px 0px;
+  text-align: center;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #aaa;
+  height: auto;
+  transition: none;
+  letter-spacing: 0.4px;
+  margin-right: 27px;
+  box-shadow: none !important;
+  outline: none;
+}
+.bottom-btn-section .btn-link:hover {
+  color: #ff9b09;
+}
+.bottom-btn-section {
+  margin-top: 64px;
+  text-align: right;
+}
+
+/* change password css start*/
+
+form.ant-form.common-form.change_pwd_form span.ant-input-affix-wrapper {
+  padding: 15px 24px;
+}
+form.ant-form.common-form.change_pwd_form
+  span.ant-input-affix-wrapper
+  input.ant-input,
+form.ant-form.common-form.change_pwd_form
+  span.ant-input-affix-wrapper
+  input.ant-input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+form.ant-form.common-form.change_pwd_form
+  span.ant-input-affix-wrapper
+  span.anticon {
+  font-size: 18px;
+  color: #aaa;
+}
+form.ant-form.common-form.change_pwd_form .ant-form-item {
+  margin-bottom: 16px;
+}
+form.ant-form.common-form.change_pwd_form
+  .ant-form-item
+  .ant-form-item-explain-error {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: #ff0000;
+}
+form.ant-form.common-form.change_pwd_form
+  .ant-form-item
+  .ant-form-item-margin-offset {
+  margin-bottom: -16px !important;
+}
+.change-pwd-btn button.ant-btn.common-btn {
+  padding: 16px 32px;
+  font-weight: 700;
+  width: 100%;
+  background: linear-gradient(269.36deg, #ff4900 -23.62%, #ff9b06 120.63%);
+}
+.change-pwd-btn button.ant-btn.common-btn:hover {
+  background: linear-gradient(-269.36deg, #ff4900 -23.62%, #ff9b06 120.63%);
+}
+.change-pwd-btn {
+  padding-top: 10px;
+}
+.Main-content-box.change-pwd-contbox {
+  padding-top: 26px;
+}
+form.ant-form.common-form.change_pwd_form
+  .ant-row.upload-data-row
+  .ant-form-item {
+  margin-bottom: 0;
+}
+.ant-row.upload-data-row {
+  align-items: center;
+}
+form.ant-form.common-form
+  .ant-form-item.upload-file-item
+  input.ant-input::-webkit-file-upload-button {
+  background: #efefef;
+  border: 1px solid #aaaaaa;
+  border-radius: 2px;
+  padding: 4px 32px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #000000;
+  margin-right: 26px;
+  cursor: pointer;
+  font-family: "Inter";
+}
+form.ant-form.common-form .ant-form-item.upload-file-item input.ant-input {
+  padding: 0;
+  border: none;
+  width: auto;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #aaaaaa;
+  font-family: "Inter";
+  outline: none;
+  box-shadow: none;
+  max-width: 100%;
+}
+.upload-file-btn .common-btn {
+  padding: 9px 32px;
+}
+/* form.ant-form.common-form.employer-form .bottom-btn-section {
+    margin-top: 26px;
+} */
+form.ant-form.common-form
+  span.ant-input-affix-wrapper
+  span.ant-input-suffix
+  span.anticon {
+  color: rgb(170 170 170 / 40%);
+  font-size: 18px;
+}
+form.ant-form.common-form
+  span.ant-input-affix-wrapper.ant-input-affix-wrapper-status-error
+  span.ant-input-suffix
+  span.anticon {
+  color: #fff;
+}
+
+form.ant-form.common-form
+  span.ant-input-affix-wrapper.ant-input-affix-wrapper-status-error {
+  border: 1px solid #ff0000 !important;
+}
+form.ant-form.common-form
+  span.ant-select
+  .ant-select-in-form-item
+  .ant-select-status-error {
+  border: 1px solid #ff0000 !important;
+}
+form.ant-form.common-form
+  span.ant-input-affix-wrapper.ant-input-affix-wrapper-status-success
+  span.ant-input-suffix
+  span.anticon {
+  color: #fff;
+}
+form.ant-form.common-form
+  span.ant-input-affix-wrapper.ant-input-affix-wrapper-status-success {
+  border-color: #fff;
+}
+form.ant-form.common-form input.ant-input.ant-input-status-success {
+  border-color: #fff;
+}
+form.ant-form.common-form .ant-select-status-success .ant-select-selector {
+  border-color: #fff;
+}
+.upload-file-btn .common-btn {
+  background: linear-gradient(269.36deg, #ed2a3a -23.62%, #f7983b 120.63%);
+  border-radius: 2px;
+}
+form.ant-form.common-form
+  .ant-select
+  .ant-select-arrow
+  span.anticon.anticon-down::after {
+  position: absolute;
+  width: 9.97px;
+  height: 5px;
+  top: -2px;
+  right: 0;
+  font-size: 12px;
+  color: #fff;
+  z-index: 10;
+  content: "";
+  background-image: url(../../Assets/Images/down-arrow.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+form.ant-form.common-form
+  .ant-select
+  .ant-select-arrow
+  span.anticon.anticon-down {
+  position: relative;
+}
+form.ant-form.common-form
+  .ant-select
+  .ant-select-arrow
+  span.anticon.anticon-down
+  svg {
+  display: none;
+}
+form.ant-form.common-form
+  span.ant-input-affix-wrapper
+  span.ant-input-suffix
+  span.anticon.anticon-phone {
+  transform: scaleX(-1);
+}
+form.ant-form.common-form
+  .ant-form-item.ant-form-item-has-success
+  .ant-col.ant-form-item-label
+  label {
+  color: #fff;
+}
+form.ant-form.common-form
+  .ant-form-item.ant-form-item-has-success
+  .ant-select-status-success
+  .ant-select-selector {
+  border-color: #fff;
+}
+form.ant-form.common-form
+  .ant-form-item.ant-form-item-has-success
+  .ant-select-focused.ant-select:not(.ant-select-disabled):not(
+    .ant-select-customize-input
+  ):not(.ant-pagination-size-changer)
+  .ant-select-selector {
+  border-color: #fff;
+}
+form.ant-form.common-form
+  .ant-form-item.ant-form-item-has-success
+  .ant-upload.ant-upload-select
+  button.ant-btn {
+  border-color: #fff;
+}
+.upload-file-btn .common-btn.dl-btn {
+  margin-left: 15px;
+}
+form.ant-form.common-form
+  .ant-upload-list.ant-upload-list-text
+  .ant-progress.ant-progress-status-success
+  .ant-progress-bg {
+  background-color: #f7983b;
+}
+form.ant-form.common-form
+  .ant-upload-list.ant-upload-list-text
+  span.ant-upload-list-item-name {
+  color: #aaa;
+}
+form.ant-form.common-form
+  .ant-upload-list.ant-upload-list-text
+  .ant-upload-icon
+  span.anticon {
+  color: #aaa;
+}
+form.ant-form.common-form
+  .ant-upload-list.ant-upload-list-text
+  span.ant-upload-list-item-actions
+  span.anticon {
+  color: #aaa !important;
+}
+form.ant-form.common-form
+  .ant-upload-list.ant-upload-list-text
+  span.ant-upload-list-item-actions
+  button.ant-btn {
+  opacity: 1;
+}
+form.ant-form.common-form
+  .ant-upload-wrapper
+  .ant-upload-list
+  .ant-upload-list-item:hover {
+  background-color: transparent;
+}
+form.ant-form.common-form
+  .ant-select-status-error:not(.ant-select-disabled):not(
+    .ant-select-customize-input
+  ):not(.ant-pagination-size-changer)
+  .ant-select-selector {
+  border-color: #ff0000 !important;
+}
+form.ant-form.common-form
+  span.ant-input-affix-wrapper.ant-input-affix-wrapper-status-error
+  span.ant-input-suffix
+  img {
+    opacity: 0.8;
+}
+@media (max-width: 991px) {
+  form.ant-form.common-form > .ant-form-item:last-child {
+    margin-bottom: 0;
+  }
+  .bottom-btn-section {
+    margin-top: 20px;
+  }
+  form.ant-form.common-form.change_pwd_form
+    span.ant-input-affix-wrapper
+    input.ant-input,
+  form.ant-form.common-form.change_pwd_form
+    span.ant-input-affix-wrapper
+    input.ant-input::placeholder {
+    font-size: 14px;
+  }
+  form.ant-form.common-form.change_pwd_form span.ant-input-affix-wrapper {
+    padding: 11px 16px;
+  }
+  .upload-file-btn .common-btn {
+    padding: 8px 15px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  form.ant-form.common-form
+    .ant-form-item.upload-file-item
+    input.ant-input::-webkit-file-upload-button {
+    padding: 3px 16px;
+    font-size: 13px;
+    line-height: 22px;
+    margin-right: 20px;
+  }
+  form.ant-form.common-form .ant-form-item.upload-file-item input.ant-input {
+    font-size: 13px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 767px) {
+  .bottom-btn-section {
+    margin-top: 5px;
+  }
+  .upload-file-btn {
+    margin-top: 20px;
+  }
+  form.ant-form.common-form
+    .ant-form-item.upload-file-item
+    input.ant-input::-webkit-file-upload-button {
+    padding: 4px 12px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #000000;
+    margin-right: 12px;
+    cursor: pointer;
+    font-family: "Inter";
+  }
+  .upload-file-btn .common-btn {
+    padding: 6px 24px;
+  }
+  .upload-file-btn.bulk-upload-btn {
+    flex-wrap: wrap;
+    gap: 15px;
+    display: flex;
+  }
+  .upload-file-btn.bulk-upload-btn .common-btn {
+    padding: 6px 15px;
+  }
+  .upload-file-btn .common-btn.dl-btn {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 320px) {
+  .upload-file-btn.bulk-upload-btn .common-btn {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+}
